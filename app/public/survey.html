@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFInder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+<div class="container">
+    <labe>Name: </labe><input type="text" id="u_name"><br/>
+    <label>Photo: </label><input type="text" id="u-photo">
+    <!-- Survey Questions -->
+    <div class="input-field col s12">
+            <h3>Question 1</h3>
+            <h3>You are the life of the party.</h3>
+            <select id="question1">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <h3>Question 2</h3>
+            <h3>You'd rather stay in than go out.</h3>
+            <select id="question2">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <h3>Question 3</h3>
+            <h3>You'd rather have a dog than a cat.</h3>
+            <select id="question3">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <h3>Question 4</h3>
+            <h3>You find value in failure.</h3>
+            <select id="question4">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <h3>Question 5</h3>
+            <h3>You think Ben Affleck was a better Batman than Christian Bale.</h3>
+            <select id="question5">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <h3>Question 6</h3>
+            <h3>You believe in what you cannot see even though can't be proven.</h3>
+            <select id="question6">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <h3>Question 7</h3>
+            <h3>You run away from hardship.</h3>
+            <select id="question7">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <h3>Question 8</h3>
+            <h3>You can have an objective dialog whether you agree with someone or not.</h3>
+            <select id="question8">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <h3>Question 9</h3>
+            <h3>You only help those that have helped you.</h3>
+            <select id="question9">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <h3>Question 10</h3>
+            <h3>Japanese cartoons are for children.</h3>
+            <select id="question10">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <!-- Survey Submit Button -->
+        <div>
+            <button class="btn waves-effect waves-light" type="submit" name="action" id="submitButton">Submit Responses
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</main>
+
+<footer class="page-footer pink accent-2">
+<div class="container">
+<div class="row">
+<div class="col l6 s12">
+    <h4 class="white-text">Friend Finder A</h4>
+    <p class="grey-text text-lighten-4">Thank you for taking the brief survey. Your responses will be used for training purposes only :-].</p>
+</div>
+<div class="col l4 offset-l2 s12">
+    <h5 class="white-text">Links</h5>
+    <ul>
+        <li><a class="grey-text text-lighten-3" href="/api/friends">API Friends List</a></li>
+        <li><a class="grey-text text-lighten-3" href="https://github.com/angrbrd/friend-finder">GitHub Repo</a></li>
+    </ul>
+</div>
+</div>
+</div>
+    <footer class="footer">
+        <div class="container">
+            <a href="#">API List</a> | <a href="#">GitHub Repo</a>
+        </div>
+    </footer>
+
+</div>
+
+<!-- Modal -->
+<div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+ 
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <img id="matchImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP5gbBJlpb9xTj7CYBT-p4e-oqjniHdvwe8tnMG0Srr-SfbxZ5
+                    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP5gbBJlpb9xTj7CYBT-p4e-oqjniHdvwe8tnMG0Srr-SfbxZ5
+                    " alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+ 
+        </div>
+    </div>
+<script type="text/javascript">
+    $("#submitButton").on("click", function(){
+        var userData = {
+            name: $("#u_name").val(),
+            photo: $("#u_photo").val(),
+            score: [$("#question1").val(),$("#question2").val(),$("#question3").val(),
+            $("#question4").val(),$("#question5").val(),$("#question6").val(),$("#question7").val(),
+            $("#question8").val(),$("#question9").val(),$("#question10").val(),]
+        }
+    });
+
+</script>
+</body>
+</html>
