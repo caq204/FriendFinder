@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 // parse an HTML body into a string
 //app.use(bodyParser.text({ type: 'text/html' }))
 
-//require("./app/routing/apiRoutes")(app);
+require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 app.listen(PORT, function() {
